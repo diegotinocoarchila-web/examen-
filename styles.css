@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.formulario-matricula{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 450px;
+
+}
+.formulario-matricula h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.formulario-matricula p{
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.grupo-campo{
+    margin-bottom: 15px;
+}
+.grupo-campo label{
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+}
+.grupo-campo input,
+.grupo-campo select,
+.grupo-campo textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+.grupo-campo input:focus,
+.grupo-campo select:focus,
+.grupo-campo textarea:focus {
+    border-color: #007BFF;
+}
+.bth-enviar {
+     width: 100%;
+     padding:12px;
+    background-color: #0066ff;
+    color:white;
+     border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;      
+ }
+.bth-enviar:hover {
+    background-color: #0056d2;
+} 
